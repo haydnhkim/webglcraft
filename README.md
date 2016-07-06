@@ -1,5 +1,4 @@
 # WebGLCraft
-==============
 
 ## Please note: 
 
@@ -11,7 +10,7 @@ Fork from the original WebGLCraft repository: https://github.com/danielribeiro/W
 
 
 ## tests
-----
+
 To run the tests, simply run:
 
 ```
@@ -22,8 +21,7 @@ The tests are powered by [Jasmine](https://github.com/jasmine/jasmine), and can 
 on the browser (useful for debugging) by opening http://localhost:8000/spec/web_runner.html
 
 
-Meta
-----
+## Meta
 
 Created by [Daniel Ribeiro](http://metaphysicaldeveloper.wordpress.com/about-me). Not affiliated with Mojang. Minecraft is a trademark of [Mojang](http://mojang.com/).
 
