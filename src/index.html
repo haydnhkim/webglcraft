@@ -5,15 +5,10 @@
         <title>MineCraftWebGL</title>
         <!--        <link href="reset.css" rel="stylesheet"/>-->
         <script src='jquery/jquery-1.9.1.js'></script>
-        <script src='js/rbcoffee.js'></script>
-        <script src='lib/coreExtensions.js'></script>
         <script src='js/jquery.hotkeys.js'></script>
-        <script src='js/jquery.mousewheel.js'></script>
-        <script src='js/RequestAnimationFrame.js'></script>
-        <script src='js/Detector.js'></script>
         <script src='js/ImprovedNoise.js'></script>
-        <script src='js/pointer.js'></script>
-        <script src='js/Three.js'></script>
+        <script src='js/three.js'></script>
+        <script src='js/Projector.js'></script>
         <script src='js/THREEx.WindowResize.js'></script>
         <script src='lib/blockSelection.js'></script>
         <script src='lib/instructions.js'></script>
@@ -70,8 +65,7 @@
             #oldie a { color:#fff }
 
             body {
-                background-image:url('./textures/bedrock.png');
-                background-color: gray;
+                background:gray url('./textures/bedrock.png');
             }
 
             #minecraft-container {
@@ -82,14 +76,15 @@
                 /*height: 600px;*/
             }
             #minecraft-blocks {
+                display: none;
                 position: relative;
                 top: -32px;
                 margin: auto;
                 background: white;
                 width: 320px;
                 height: 32px;
-                display: none;
-
+                font-size: 0;
+                line-height: 0;
             }
             #minecraft-blocks img {
                 margin: 0;
