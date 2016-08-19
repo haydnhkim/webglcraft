@@ -5,8 +5,7 @@ const instructions = {
   save: "Save map",
   pause: "Pause/Unpause",
   space: "Jump",
-  wasd: "WASD keys to move",
-  scroll: "Scroll to change selected block"
+  wasd: "WASD keys to move"
 };
 
 class Instructions {

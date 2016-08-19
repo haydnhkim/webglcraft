@@ -1,5 +1,5 @@
 const {
-  Matrix4, Scene, Mesh, WebGLRenderer, PerspectiveCamera,
+  Scene, Mesh, WebGLRenderer, PerspectiveCamera,
   CubeGeometry, PlaneGeometry, MeshLambertMaterial,
   AmbientLight, DirectionalLight, PointLight, Raycaster, Vector3, Vector2,
   Projector, Texture, UVMapping, RepeatWrapping, NearestFilter,
