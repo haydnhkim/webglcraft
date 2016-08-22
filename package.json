@@ -1,0 +1,20 @@
+{
+  "name": "webglcraft",
+  "version": "1.0.0",
+  "description": "WebGL implementation of [Minecraft](http://www.minecraft.net/) written in ES2015(ECMAScript 2015) aka ES6 using [three.js](http://threejs.org).",
+  "private": true,
+  "main": "",
+  "scripts": {
+    "gh-pages": "git subtree push --prefix src origin gh-pages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haydnhkim/webglcraft.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/haydnhkim/webglcraft/issues"
+  },
+  "homepage": "https://github.com/haydnhkim/webglcraft#readme"
+}
